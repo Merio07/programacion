@@ -8,7 +8,7 @@ de nombreCompletoInput, y cómo declararías la variable nombreLimpio con let?
 */
 
 let nombreLimpio = nombreCompletoInput.trim();
-console.log(nombreLimpio);
+
 /*
 2-a) ¿Qué método usarías para separar nombreLimpio en nombre y apellido?
 
@@ -26,3 +26,9 @@ apellidoFormateado = apellido.charAt(0).toUpperCase() + apellido.slice(1).toLowe
 //¿Cómo obtendrías profesionFormateada, donde solo la primera letra de profesionInput queda en mayúscula?
 
 let profesionFormateada = profesionInput.charAt(0).toUpperCase() + profesionInput.slice(1).toLowerCase();
+
+//4-a) ¿Cómo extraerías las dos primeras letras del nombre y las dos primeras del apellido, ya en minúsculas?
+
+//4-b) ¿Qué expresión usarías para quedarte únicamente con los dígitos de idUsuario?
+
+//4-c) ¿Cómo concatenarías todo (nombre, apellido y dígitos) para obtener la variable username?
